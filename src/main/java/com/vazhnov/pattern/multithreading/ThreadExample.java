@@ -1,6 +1,6 @@
 package com.vazhnov.pattern.multithreading;
 
-public class ThreadExample extends java.lang.Thread {
+public class ThreadExample extends Thread {
 
         public void run() {
             System.out.println("ThreadExtends is running");
