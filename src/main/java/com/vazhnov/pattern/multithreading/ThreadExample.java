@@ -1,14 +1,14 @@
 package com.vazhnov.pattern.multithreading;
 
-public class ThreadExtends extends Thread{
+public class ThreadExample extends java.lang.Thread {
 
         public void run() {
             System.out.println("ThreadExtends is running");
         }
 
         public static void main(String[] args) {
-            ThreadExtends myThread = new ThreadExtends();
-            myThread.start();
+            ThreadExample myThreadExample = new ThreadExample();
+            myThreadExample.start();
         }
 
 

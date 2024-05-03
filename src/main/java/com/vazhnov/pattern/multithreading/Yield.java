@@ -1,7 +1,7 @@
 package com.vazhnov.pattern.multithreading;
 
 
-public class YieldExample {
+public class Yield {
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
             for (int i = 0; i < 5; i++) {
